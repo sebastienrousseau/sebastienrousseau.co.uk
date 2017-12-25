@@ -14,9 +14,14 @@ layout: default
           {% if page.author %}
             • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
           {% endif %}</p>
-      </header>
-        <!-- {{ page.content }} -->
 
+      </header>
+
+
+
+      <p>{{ page.content | strip_html | truncatewords: 10 }}</p>
+      <p><a href="{{ page.url }}" class="button">READ THE POST</a></p>
+        <!-- {{ page.content }} -->
 
       <!-- <p class="extra-info">
         {% if page.tags.size > 0 %}
