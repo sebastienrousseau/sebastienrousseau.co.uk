@@ -3,9 +3,9 @@ layout: default
 ---
 
   {% for page in paginator.posts %}
-    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline"><a href="{{ page.url }}">{{ page.title | escape }}</a></h1>
+    <article itemscope itemtype="http://schema.org/BlogPosting">
+      <header>
+        <h1 itemprop="name headline" style="margin:0 !important"><a href="{{ page.url }}" style="font-size: 1.2rem;text-transform:uppercase;color:#000;">{{ page.title | escape }}</a></h1>
         <p>
           <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
             {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
