@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en " }}">
+
+{% include head.html %}
+
+<body>
+
+  <main class="container center text-left">
+    <section class="grid-flex">
+      <row class="flex-1">
+        <h1 style="margin:0 !important">Sebastien Rousseau</h1>
+      </row>
+    </section>
+
+    <section class="grid-flex">
+      <row class="flex-7 text-left">
+        {{ content }}
+      </row>
+      <row class="flex-1"></row>
+      <row class="flex-2 text-center" style="padding: 1em 1.414em 0 1.414em;border: 1px solid #ebebeb;">
+        {% include sidebar.html %}
+      </row>
+    </section>
+  </main>
+
+  {% include footer.html %}
+
+</body>
+
+</html>

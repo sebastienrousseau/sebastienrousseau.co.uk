@@ -1,0 +1,35 @@
+  <p><img src="/assets/SebastienRousseau.jpeg" style="border-radius: 50%" alt="" /></p>
+  <h4>{{ site.title | escape }}</h4>
+  <p>Founder of <a href="https://reedia.com">reedia.com</a></p>
+  <p><a href="/about">More about me</a></p>
+
+  <!-- Social links -->
+  <ul class="text-left">
+    {% if site.github_username %}
+    <li>
+      {% include icon-github.html username=site.github_username %}
+    </li>
+    {% endif %}
+    {% if site.twitter_username %}
+    <li>
+      {% include icon-twitter.html username=site.twitter_username %}
+    </li>
+    {% endif %}
+    <li>
+      {% include icon-linkedin.html username=site.linkedin_username %}
+    </li>
+  </ul>
+
+  <hr />
+
+  {% include posts.html %}
+
+  <hr />
+
+  {% include newsletter.html %}
+
+  <hr />
+
+  <!-- {% twitter https://twitter.com/wwdseb maxwidth=500 limit=5 %} -->
+
+</div>

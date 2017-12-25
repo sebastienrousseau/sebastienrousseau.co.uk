@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Template"
+categories: []
+author: "Sebastien Rousseau"
+tags:
+- Template
+status: publish
+type: post
+published: true
+meta: {}
+---
+
+<p><img src="/assets/photo-1.jpeg" alt="" /></p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pulvinar accumsan felis.</p>

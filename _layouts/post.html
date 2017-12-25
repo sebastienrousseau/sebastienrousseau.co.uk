@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<article itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    <h1 style="font-size: 1.2rem;text-transform:uppercase;color:#000;" itemprop="name headline"><a href="{{ page.url | absolute_url }}">{{ page.title | escape }}</a></h1>
+    <p>
+      {% if page.author %}
+        by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+      {% endif %}
+    </p>
+    <p>
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        {{ page.date | date: date_format }}
+      </time>
+  </header>
+
+    {{ content }}
+
+
+
+  <p class="extra-info">
+    {% if page.tags.size > 0 %}
+      Tags: {{ page.tags | join: ', ' }}
+    {% endif %}
+  </p>
+</article>

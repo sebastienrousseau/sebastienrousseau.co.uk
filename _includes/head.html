@@ -1,0 +1,22 @@
+<head>
+  <!-- Metatags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="{{ site.title | escape }}">
+
+  <!-- SEO -->
+  {% seo %}
+
+  <title>{{ site.title | escape }}</title>
+
+  <!-- CSS -->
+  <style>
+  {% include skeletonic.min.css %}
+  </style>
+
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+  {% if jekyll.environment == 'production' and site.google_analytics %}
+    {% include analytics.html %}
+  {% endif %}
+</head>
