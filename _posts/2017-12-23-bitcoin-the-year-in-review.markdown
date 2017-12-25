@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "Template"
+title: "Bitcoin The Year In Review"
 categories: []
 author: "Sebastien Rousseau"
 tags:
-- Template
+- news
 status: publish
 type: post
 published: true
 meta: {}
 ---
 {%
-  asset photo-1.jpeg
+  asset bitcoin.jpg
   alt="Banner"
 %}
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pulvinar accumsan felis.</p>
+<p>A Look Back at Bitcoin and Cryptocurrencies in 2017.</p>
