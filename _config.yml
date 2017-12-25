@@ -27,6 +27,14 @@ google_analytics: UA-18658848-6
 
 # Build settings
 markdown: kramdown
+exclude:
+  - .travis.yml
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - README.md
+  - vendor/
+  - yarn.lock
 plugins:
   - jekyll-feed
   - jekyll-paginate
@@ -35,11 +43,45 @@ plugins:
   - jekyll-seo-tag
   - jekyll-minifier
   - jekyll-watch
+  - jekyll-assets
+  - jekyll-redirect-from
+  - autoprefixer-rails
 
 permalink: /blog/:title
 paginate: 4
 paginate_path: "/blog/page:num/"
+timezone:  Europe/London
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+assets:
+  plugins:
+    css: { autoprefixer: {}}
+    img: { optim: {}}
+  source_maps: false
+  sources:
+    - _assets/fonts
+    - _assets/icons
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
+
+caching:
+  path: ".jekyll-cache/assets"
+  type: file # Possible values: memory, file
+  enabled: true
+# --
+# baseurl: whether or not to append site.baseurl
+# destination: the folder you store them in on the CDN.
+# url: the CDN url (fqdn, or w/ identifier).
+# --
+# cdn:
+#   baseurl: false
+#   destination: false
+#   url: null
+# --
+# These are all default. No need to add them
+#   Only use this if you have more.
+# --
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

@@ -26,5 +26,8 @@ group :jekyll_plugins do
   gem 'jekyll-minifier'
   gem 'jekyll-twitter-plugin'
   gem 'jekyll-watch'
+  gem 'jekyll-assets'
+  gem 'jekyll-redirect-from'
+  gem "autoprefixer-rails"
 
 end

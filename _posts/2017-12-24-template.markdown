@@ -10,6 +10,8 @@ type: post
 published: true
 meta: {}
 ---
-
-<p><img src="/assets/photo-1.jpeg" alt="" /></p>
+{%
+  asset photo-1.jpeg
+  alt="Banner"
+%}
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pulvinar accumsan felis.</p>
