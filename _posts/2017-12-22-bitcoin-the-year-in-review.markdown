@@ -4,7 +4,7 @@ title: "Bitcoin The Year In Review"
 description: "A Look Back at Bitcoin and Cryptocurrencies in 2017."
 lang: en_GB
 image: /assets/bitcoin-ee0d32467f03e8ebea20fa14d87a09d761c2fe936204258f20994d98fce433f1.jpg
-categories: []
+categories: [bitcoin,btc]
 author: "Sebastien Rousseau"
 tags:
 - bitcoin
