@@ -45,11 +45,13 @@ layout: default
       <meta itemprop="height" content="142" />
       <meta itemprop="width" content="128" />
     </span>
-    <p class="post-meta" style="text-align: justify;">
-		Tags:
-		{% assign tags = page.tags | sort %}
-		{% include tagcloud.html %}
-		</p>
+    <p>
+      {% if page.tags.size > 0 %}
+        Tag{% if page.tags.size > 1 %}s{% endif %}:
+        {% assign tags = page.tags | sort %}
+        {% include taglist.html %}
+      {% endif %}
+    </p>
   </header>
 
     {{ content }}
