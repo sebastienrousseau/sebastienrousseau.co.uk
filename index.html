@@ -23,12 +23,26 @@ layout: default
       <p><a href="{{ page.url }}" class="button">READ THE POST</a></p>
         <!-- {{ page.content }} -->
 
+
+
+
       <!-- <p class="extra-info">
         {% if page.tags.size > 0 %}
           Tags: {{ page.tags | join: ', ' }}
         {% endif %}
 
       </p> -->
-      
+
     </article>
   {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}

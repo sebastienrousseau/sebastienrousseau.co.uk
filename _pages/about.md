@@ -1,8 +1,10 @@
 ---
-layout: page
+layout: default
 title: About Sebastien Rousseau
-categories: []
-tags: []
+description: Page about Sebastien Rousseau
+permalink: /about/
+categories: [about]
+tags: [sebastien,rousseau]
 status: publish
 type: page
 published: true
