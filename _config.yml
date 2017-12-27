@@ -29,6 +29,7 @@ google_analytics: UA-18658848-6
 
 # Build settings
 markdown: kramdown
+include: ["_pages"]
 exclude:
   - .travis.yml
   - Gemfile

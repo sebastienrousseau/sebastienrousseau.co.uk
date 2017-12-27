@@ -7,11 +7,8 @@ image: /assets/bitcoin-ee0d32467f03e8ebea20fa14d87a09d761c2fe936204258f20994d98f
 categories: []
 author: "Sebastien Rousseau"
 tags:
-- bitcoin
-- btc
-- cryptocurrency
-- blockchain
-- bitcoinnews
+- test
+- money
 status: publish
 type: post
 published: true
