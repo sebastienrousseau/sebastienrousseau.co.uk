@@ -2,39 +2,13 @@
 layout: default
 ---
 
-  {% for page in paginator.posts %}
-    <article itemscope itemtype="http://schema.org/BlogPosting">
-      <header>
-        <h1 itemprop="name headline" style="margin:0 !important"><a href="{{ page.url }}" style="font-size: 1.2rem;text-transform:uppercase;color:#000;">{{ page.title | escape }}</a></h1>
-        <p>
-          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-            {{ page.date | date: date_format }}
-          </time>
-          {% if page.author %}
-            • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
-          {% endif %}</p>
 
-      </header>
-
-
-
-      <p>{{ page.content | strip_html | truncatewords: 10 }}</p>
-      <p><a href="{{ page.url }}" class="button">READ THE POST</a></p>
-        <!-- {{ page.content }} -->
-
-
-
-
-      <!-- <p class="extra-info">
-        {% if page.tags.size > 0 %}
-          Tags: {{ page.tags | join: ', ' }}
-        {% endif %}
-
-      </p> -->
-
-    </article>
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>: {{ post.excerpt | remove: '<p>' | remove: '</p>' | split:'<!--more-->' | first }}</li>
   {% endfor %}
+
+
+
 
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
