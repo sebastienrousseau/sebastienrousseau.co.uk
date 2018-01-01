@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Bitcoin The Year In Review"
-description: "A Look Back at Bitcoin and Cryptocurrencies in 2017."
+title: 'Bitcoin The Year In Review'
+description: 'A Look Back at Bitcoin and Cryptocurrencies in 2017.'
 lang: en_GB
-image: /assets/bitcoin-ee0d32467f03e8ebea20fa14d87a09d761c2fe936204258f20994d98fce433f1.jpg
-categories: [bitcoin,blockchain,cryptocurrencyies]
-author: "Sebastien Rousseau"
+image: /assets/bitcoin-2018.jpg
+categories: [bitcoin, blockchain, cryptocurrencies]
+author: 'Sebastien Rousseau'
 tags:
 - bitcoin
 - btc
@@ -22,7 +22,7 @@ The Peer-to-Peer Electronic Cash System that everyone is talking about<!--more--
 
 {%
   asset bitcoin-2018.jpg
-  alt="Bitcoin Banner"
+  alt='Bitcoin Banner'
 %}
 
 Cryptocurrencies- a term until recently reserved for specialists, have hit mainstream headlines all through 2017. And the cryptocurrency phenomenon on everyone's lips is Bitcoin.
@@ -31,10 +31,10 @@ Cryptocurrencies- a term until recently reserved for specialists, have hit mains
 
 {%
   asset chart.jpeg
-  alt="Bitcoin (BTC) chart in 2017"
+  alt='Bitcoin (BTC) chart in 2017'
 %}
 
-In January 2017, Bitcoin was valued at $1000. Spring forward to December 17 2017, Bitcoin was worth 20 times that amount at an eye-watering $20089.
+In January 2017, Bitcoin was valued at 1000 USD. Spring forward to December 17 2017, Bitcoin was worth 20 times that amount at an eye-watering 20,089 USD.
 
 Investors are looking more seriously at Bitcoin and other cryptocurrencies as they become a more lucrative equity market.
 
