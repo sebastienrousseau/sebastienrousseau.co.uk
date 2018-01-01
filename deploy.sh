@@ -15,18 +15,18 @@ git config --global user.email "sebastien.rousseau@mac.com"
 git config --global user.name "Sebastien Rousseau"
 
 # Delete old directories (if any)
-rm -rf "/tmp/sebastienrousseau.com"
+#rm -rf "/tmp/sebastienrousseau.com"
 # Copy the generated website to the temporary directory
-cp -R "_site/" "/tmp/sebastienrousseau.com"
+#cp -R "_site/" "/tmp/sebastienrousseau.com"
 
 # Check out gh-pages and clear all files
-git reset --hard HEAD # we don't want the `git checkout` to cause issues (e.g. https://circleci.com/gh/fastlane/docs/730)
-git checkout -b gh-pages
-git remote add upstream "https://$GH_TOKEN@github.com/reedia/sebastienrousseau.com.git"
-git pull
-rm -rf *
+#git reset --hard HEAD # we don't want the `git checkout` to cause issues (e.g. https://circleci.com/gh/fastlane/docs/730)
+#git checkout -b gh-pages
+#git remote add upstream "https://$GH_TOKEN@github.com/reedia/sebastienrousseau.com.git"
+#git pull
+#rm -rf *
 # Copy the finished HTML pages to the current directory
-cp -R /tmp/sebastienrousseau.com/* .
+#cp -R /tmp/sebastienrousseau.com/* .
 
 # We need a CNAME file for GitHub
 echo "sebastienrousseau.com" > "CNAME"
