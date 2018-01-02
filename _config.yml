@@ -18,16 +18,18 @@ locale: en_GB
 encoding: utf-8
 email: website@sebastienrousseau.com
 description: Personal website and blog of Sebastien Rousseau
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://sebastienrousseau.com" # the base hostname & protocol for your site
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://sebastienrousseau.co.uk" # the base hostname & protocol for your site
 theme: minima
 twitter_username: wwdseb
 github_username: sebastienrousseau
 linkedin_username: sebastienrousseau
 google_plus_username: +sebastienrousseau
-google_analytics: UA-18658848-6
+#google_analytics: UA-18658848-6
 
 # Build settings
+repository: reedia/sebastienrousseau.com
+encoding: UTF-8
 markdown: kramdown
 include: ["_pages"]
 exclude:
@@ -48,6 +50,7 @@ plugins:
   - jekyll-watch
   - jekyll-assets
   - jekyll-redirect-from
+  - jekyll-github-metadata
   - autoprefixer-rails
 
 permalink: /blog/:title
