@@ -20,7 +20,7 @@ email: website@sebastienrousseau.com
 description: Personal website and blog of Sebastien Rousseau
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sebastienrousseau.com" # the base hostname & protocol for your site
-
+theme: minima
 twitter_username: wwdseb
 github_username: sebastienrousseau
 linkedin_username: sebastienrousseau
