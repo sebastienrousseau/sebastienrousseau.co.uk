@@ -20,19 +20,9 @@ meta: {}
 ---
 The Peer-to-Peer Electronic Cash System that everyone is talking about<!--more-->
 
-{%
-  asset bitcoin-2018.jpg
-  alt='Bitcoin Banner'
-%}
-
 Cryptocurrencies- a term until recently reserved for specialists, have hit mainstream headlines all through 2017. And the cryptocurrency phenomenon on everyone's lips is Bitcoin.
 
 2017 will go down as the biggest year in Bitcoin’s history where the digital currency had had the most incredible rise in value.
-
-{%
-  asset chart.jpeg
-  alt='Bitcoin (BTC) chart in 2017'
-%}
 
 In January 2017, Bitcoin was valued at 1000 USD. Spring forward to December 17 2017, Bitcoin was worth 20 times that amount at an eye-watering 20,089 USD.
 
