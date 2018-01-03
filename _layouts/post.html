@@ -9,7 +9,7 @@ layout: default
 {% endif %}
 <article itemscope itemtype="http://schema.org/BlogPosting">
   <header>
-    <h1 style="font-size: 1.2rem;text-transform:uppercase;color:#000;" itemprop="name headline"><a href="{{ page.url | absolute_url }}">{{ page.title | escape }}</a></h1>
+    <h1 style="font-size: 1.2rem;text-transform:uppercase;color:#000;" itemprop="name headline"><a href="{{ page.url }}">{{ page.title | escape }}</a></h1>
     <p>
       {% if page.author %}
         by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>

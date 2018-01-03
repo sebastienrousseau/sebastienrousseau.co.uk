@@ -1,6 +1,6 @@
 <h4>Recent Posts</h4>
 <ul class="text-left">
   {% for post in site.posts limit:5 %}
-    <li><a href="{{ page.url | absolute_url }}{{ post.url }}">{{ post.title }}</a></li>
+    <li><a href="{{ page.url}}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
