@@ -16,7 +16,7 @@ tags:
 status: publish
 type: post
 published: true
-meta: {}
+meta: {bitcoin,btc,blockchain,cryptocurrency,cryptocurrencies}
 ---
 The Peer-to-Peer Electronic Cash System that everyone is talking about<!--more-->
 
