@@ -30,5 +30,5 @@ push() {
 
 setup
 setup_git
-commit_generated
+commit
 push
