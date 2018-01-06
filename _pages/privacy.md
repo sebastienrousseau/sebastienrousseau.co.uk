@@ -6,7 +6,7 @@ permalink: /privacy/
 
 Reedia Limited wants to ensure that your privacy is protected and this privacy policy relates how uses and protects any information provided to Reedia Limited when you use this website. Any information you provide will only be used in accordance with this privacy statement.
 
-This Privacy Policy governs the manner in which Reedia Limited collects, uses, maintains and discloses information collected from users (each, a "User") of the https://sebastienrousseau.com website ("Site"). This privacy policy applies to the Site and all products and services offered by Reedia Limited.
+This Privacy Policy governs the manner in which Reedia Limited collects, uses, maintains and discloses information collected from users (each, a "User") of the http://sebastienrousseau.co.uk website ("Site"). This privacy policy applies to the Site and all products and services offered by Reedia Limited.
 
 ### Personal identification information
 
@@ -52,7 +52,7 @@ Reedia Limited has the discretion to update this privacy policy at any time. Whe
 
 ### Your Acceptance of These Terms
 
-By using this Site, you signify your acceptance of this policy and https://sebastienrousseau.com/privacy/. If you do not agree to this policy, please do not use our Site. Your continued use of the Site following the posting of changes to this policy will be deemed your acceptance of those changes.
+By using this Site, you signify your acceptance of this policy and http://sebastienrousseau.co.uk/privacy/. If you do not agree to this policy, please do not use our Site. Your continued use of the Site following the posting of changes to this policy will be deemed your acceptance of those changes.
 
 ### Contacting Us
 

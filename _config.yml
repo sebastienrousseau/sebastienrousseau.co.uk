@@ -15,8 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Sebastien Rousseau
 locale: en_GB
-encoding: utf-8
-email: website@sebastienrousseau.com
+email: hello@sebastienrousseau.co.uk
 description: Personal website and blog of Sebastien Rousseau
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://sebastienrousseau.co.uk" # the base hostname & protocol for your site
@@ -25,11 +24,11 @@ twitter_username: wwdseb
 github_username: sebastienrousseau
 linkedin_username: sebastienrousseau
 google_plus_username: +sebastienrousseau
-#google_analytics: UA-18658848-6
+google_analytics: UA-112050664-1
 
 # Build settings
-repository: reedia/sebastienrousseau.com
-encoding: UTF-8
+encoding: utf-8
+repository: reedia/sebastienrousseau.co.uk
 markdown: kramdown
 include: ["_pages"]
 exclude:
@@ -53,9 +52,9 @@ plugins:
   - jekyll-github-metadata
   - autoprefixer-rails
 
-permalink: /blog/:title
+permalink: /:title
 paginate: 5
-paginate_path: "/blog/page:num/"
+paginate_path: "/page:num/"
 permalink: pretty
 timezone:  Europe/London
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -66,11 +65,11 @@ assets:
     img: { optim: {}}
   source_maps: false
   sources:
-    - _assets/fonts
-    - _assets/icons
-    - _assets/images
-    - _assets/javascripts
-    - _assets/stylesheets
+    - assets/fonts
+    - assets/icons
+    - assets/images
+    - assets/javascripts
+    - assets/stylesheets
 
 caching:
   path: ".jekyll-cache/assets"

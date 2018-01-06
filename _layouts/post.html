@@ -9,42 +9,17 @@ layout: default
 {% endif %}
 <article itemscope itemtype="http://schema.org/BlogPosting">
   <header>
-    <h1 style="font-size: 1.2rem;text-transform:uppercase;color:#000;" itemprop="name headline"><a href="{{ page.url }}">{{ page.title | escape }}</a></h1>
+    <h2 style="text-transform:uppercase;" itemprop="name headline"><a href="{{ page.url }}">{{ page.title | escape }}</a></h2>
     <p>
       {% if page.author %}
         by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
       {% endif %}
     </p>
+
     <p>
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
     <meta content="{{ modified | date_to_xmlschema }}" itemprop="dateModified" />
-    {% if author %} •
-    <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <span itemprop="name">{{ author.name }}</span>
-      <meta itemprop="email" content="{{ author.email }}" />
-      <meta itemprop="image" content="{{ author.image }}" />
-      {% if author.email %}
-      <a
-        class="fa fa-envelope"
-        title="contact me via e-mail"
-        href="mailto:{{ site.email }}">&nbsp;</a>
-      {% endif %}
-    </span>
-    <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="{{ site.name }}" />
-      <span itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-        <meta itemprop="url" content="{{ site.url }}/favicon.png" />
-        <meta itemprop="height" content="142" />
-        <meta itemprop="width" content="128" />
-      </span>
-    </span>
-    {% endif %}
-    <meta itemprop="mainEntityOfPage" content="{{ site.url }}" />
-    <span itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-      <meta itemprop="url" content="{{ site.url }}/favicon.png" />
-      <meta itemprop="height" content="142" />
-      <meta itemprop="width" content="128" />
-    </span>
+
     <p>
       {% if page.tags.size > 0 %}
         Tag{% if page.tags.size > 1 %}s{% endif %}:
@@ -54,13 +29,6 @@ layout: default
     </p>
   </header>
 
-    {{ content }}
+  {{ content }}
 
-
-
-  <!-- <p class="extra-info">
-    {% if page.tags.size > 0 %}
-      Tags: {{ page.tags | join: ', ' }}
-    {% endif %}
-  </p> -->
 </article>

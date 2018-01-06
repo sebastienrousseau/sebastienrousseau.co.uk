@@ -1,5 +1,7 @@
 <head>
+
   <meta charset="utf-8">
+
   <title>{{ site.title | escape }}</title>
 
   <!-- Metatags -->
@@ -7,13 +9,15 @@
 
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="https://unpkg.com/skeletonic" />
-  <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico" >
-  <!-- <style>
-    {% include skeletonic.min.css %}
-  </style> -->
 
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico" >
+
+  <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+
   {% if jekyll.environment == 'production' and site.google_analytics %}
+    <!-- GA -->
     {% include analytics.html %}
   {% endif %}
 </head>

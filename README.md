@@ -1,8 +1,8 @@
-# [sebastienrousseau.com](https://sebastienrousseau.com)
+# [sebastienrousseau.co.uk](http://sebastienrousseau.co.uk)
 
 ### To run the server locally:
 ```
-git clone https://github.com/sebastienrousseau/sebastienrousseau.com
+git clone https://github.com/sebastienrousseau/sebastienrousseau.co.uk
 ```
 
 ### Install bundler
