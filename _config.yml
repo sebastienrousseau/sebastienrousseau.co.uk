@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Sebastien Rousseau
 author: Sebastien Rousseau
-locale: en_GB
+locale: en-gb
 email: hello@sebastienrousseau.co.uk
 description: I'm the founder of Reedia Limited - a Blockchain, Banking & Financial Services development consultancy based in London, United Kingdom.
 baseurl: "/" # the subpath of your site, e.g. /blog
