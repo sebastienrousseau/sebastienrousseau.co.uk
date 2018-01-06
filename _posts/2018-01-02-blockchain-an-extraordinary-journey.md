@@ -14,11 +14,11 @@ tags:
 status: publish
 type: post
 published: true
-meta: {}
+meta: {blockchain,cryptography,financial services,cryptocurrencies,P2P}
 ---
 A story of the extraordinary journey of securing digital transactions through Private-key Cryptography and Peer-to-peer (P2P) networks.<!--more-->
 
-<img src="/assets/images/blockchain.png" alt="Bitcoin Banner" />  
+<img src="/assets/images/blockchain.png" alt="Blockchain Banner" />  
 
 Blockchain, one of the underlying technologies which has helped to drive the startling growth of cryptocurrencies, is already disrupting a huge spectrum of businesses, financial services and capital markets.
 
