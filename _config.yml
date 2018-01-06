@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Sebastien Rousseau
+author: Sebastien Rousseau
 locale: en_GB
 email: hello@sebastienrousseau.co.uk
 description: I'm the founder of Reedia Limited - a Blockchain, Banking & Financial Services development consultancy based in London, United Kingdom.
@@ -58,6 +59,9 @@ paginate_path: "/page:num/"
 permalink: pretty
 timezone:  Europe/London
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+feed:
+  path: atom.xml
 
 assets:
   plugins:
