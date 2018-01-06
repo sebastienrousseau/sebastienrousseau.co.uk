@@ -16,7 +16,7 @@
 title: Sebastien Rousseau
 locale: en_GB
 email: hello@sebastienrousseau.co.uk
-description: Personal website and blog of Sebastien Rousseau
+description: I'm the founder of Reedia Limited - a Blockchain, Banking & Financial Services development consultancy based in London, United Kingdom.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://sebastienrousseau.co.uk" # the base hostname & protocol for your site
 theme: minima
