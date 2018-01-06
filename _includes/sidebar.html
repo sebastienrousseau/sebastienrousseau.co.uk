@@ -61,9 +61,9 @@
       {% assign size = base | plus: 10 %}
     {% endif %}
     {% if remain == 0 or remain == 1 %}
-      {% assign color = 9 | minus: base %}
+      {% assign color = 808080 | minus: base %}
     {% else %}
-      {% assign color = 8 | minus: base %}
+      {% assign color = D3D3D3 | minus: base %}
     {% endif %}
     <a href="/tags/{{ tag[0] }}" style="font-size: {{ size }}pt; color: #{{ color }}{{ color }}{{ color }};">{{ tag[0] }}</a>
   {% endfor %}
