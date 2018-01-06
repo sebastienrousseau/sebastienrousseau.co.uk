@@ -3,7 +3,7 @@ layout: post
 title: 'Bitcoin The Year In Review'
 description: 'A Look Back at Bitcoin and Cryptocurrencies in 2017.'
 lang: en_GB
-image: /assets/bitcoin-2018.jpg
+image: /assets/images/bitcoin-2018.jpg
 categories: [bitcoin, blockchain, cryptocurrencies]
 author: 'Sebastien Rousseau'
 tags:
