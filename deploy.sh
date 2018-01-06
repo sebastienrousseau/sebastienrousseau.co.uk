@@ -4,8 +4,6 @@ setup() {
 
   rev=$(git rev-parse --short HEAD)
 
-  cd reedia/sebastienrousseau.co.uk
-
   echo "Starting deploy to http://sebastienrousseau.co.uk"
 
   # Build the docs page locally
