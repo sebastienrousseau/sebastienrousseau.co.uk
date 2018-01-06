@@ -6,9 +6,9 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
   	<title>{{ site.name | xml_escape }}</title>
     <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <link>{{ site.url }}</link>
     <lastBuildDate>{{ site.time | date_to_xmlschema }}</lastBuildDate>
-    <language>en-gb</language>
+    <language>{{site.locale}}</language>
     {% for post in site.posts limit:10 %}
     <item>
       <title>{{ post.title | xml_escape }}</title>
@@ -27,28 +27,28 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
 			  <meta charset="utf-8">
 			  <meta property="op:markup_version" content="v1.0">
 
-			  <!-- The URL of the web version of your article --> 
+			  <!-- The URL of the web version of your article -->
 			  <link rel="canonical" href="{{ page_url }}">
-			  
-			  <!-- The style to be used for this article --> 
+
+			  <!-- The style to be used for this article -->
 			  <meta property="fb:article_style" content="myarticlestyle">
 
 		  	<meta property="og:url"          content="{{ site.url }}{{ post.url }}" />
 			<meta property="og:type"         content="article" />
 			<meta property="og:title"        content="{{ post.title }}" />
 			<meta property="og:description"  content="{{ post.description }}" />
-			<meta property="og:image"        content="{{ site.url }}/images/cardboard.jpg" />
+			<meta property="og:image"        content="{{ site.url }}/assets/images/SebastienRousseau.jpeg" />
 			<meta property="fb:app_id"       content="{{ site.facebook_id }}" />
 			</head>
 			<body>
 			  <article>
 			    <header>
-			      <!-- The cover image shown inside your article --> 
+			      <!-- The cover image shown inside your article -->
 			      <figure>
-			        <img src="{{ site.url }}/images/cardboard.jpg" />
-			        <figcaption>A kanban board</figcaption>
+			        <img src="{{ site.url }}/assets/images/SebastienRousseau.jpeg" />
+			        <figcaption>Sebastien Rousseau</figcaption>
 			      </figure>
-			      
+
 			      <!-- The title and subtitle shown in your article -->
 			      <h1> post.title </h1>
 
@@ -59,7 +59,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
 
 			      <!-- The author of your article -->
 			      <address>
-			        <a rel="facebook" href="http://facebook.com/pauldambra">Paul D'Ambra</a>
+			        <a rel="facebook" href="http://facebook.com/{{site.facebook_username}}">{{site.facebook_username}}</a>
 			      </address>
 
 			      <!-- The published and last modified time stamps -->
