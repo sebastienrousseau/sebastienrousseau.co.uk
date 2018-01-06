@@ -44,7 +44,6 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-twitter-plugin
-  - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-minifier
   - jekyll-watch

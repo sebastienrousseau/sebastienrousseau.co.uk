@@ -29,7 +29,6 @@ group :jekyll_plugins do
   gem 'jekyll-watch'
   gem 'jekyll-assets'
   gem 'jekyll-redirect-from'
-  gem 'jekyll-sitemap'
   gem "autoprefixer-rails"
 
 end
