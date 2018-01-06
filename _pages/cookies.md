@@ -1,8 +1,9 @@
 ---
-layout: page
-title: Cookies
+layout: default
+title: Cookie Policy
 permalink: /cookies/
 ---
+# {{ page.title | escape }}
 
 ### What are cookies?
 

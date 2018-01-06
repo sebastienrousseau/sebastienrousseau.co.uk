@@ -11,7 +11,6 @@ published: true
 meta: {}
 ---
 
-<img src="{{ "/assets/images/banner.jpg" | relative_url }}" alt="Banner" />
 ## About Sebastien Rousseau
 
 I'm the founder of <a href="https://reedia.com">Reedia Limited</a> - a Blockchain, Banking & Financial Services development consultancy based in London, United Kingdom.

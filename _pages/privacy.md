@@ -1,8 +1,9 @@
 ---
-layout: page
-title: Privacy
+layout: default
+title: Privacy Policy and Disclaimer
 permalink: /privacy/
 ---
+# {{ page.title | escape }}
 
 Reedia Limited wants to ensure that your privacy is protected and this privacy policy relates how uses and protects any information provided to Reedia Limited when you use this website. Any information you provide will only be used in accordance with this privacy statement.
 

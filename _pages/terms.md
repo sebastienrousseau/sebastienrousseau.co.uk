@@ -1,8 +1,9 @@
 ---
-layout: page
-title: Terms
+layout: default
+title: Terms and Conditions
 permalink: /terms/
 ---
+# {{ page.title | escape }}
 
 Please read these Terms of Service (“Terms”, “Terms of Service”) carefully before using this website (the “Service”) operated by Reedia Limited (“us”, “we”, or “our”).
 
