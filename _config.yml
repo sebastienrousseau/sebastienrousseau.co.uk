@@ -32,6 +32,7 @@ encoding: utf-8
 repository: reedia/sebastienrousseau.co.uk
 markdown: kramdown
 include: ["_pages"]
+excerpt_separator: <!--more-->
 exclude:
   - .travis.yml
   - Gemfile

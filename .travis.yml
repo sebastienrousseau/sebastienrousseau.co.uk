@@ -6,7 +6,9 @@ rvm:
 before_install:
 - bundle install
 script:
-- "./deploy.sh"
+- "./image-optimisation.sh"
+after_success:
+- "./deploy.sh"  
 branches:
   only:
   - master
