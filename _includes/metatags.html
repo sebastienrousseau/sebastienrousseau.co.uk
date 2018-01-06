@@ -4,12 +4,8 @@
 <meta name="author" content="{{ site.title | escape }}">
 <meta name="keywords" content="{{ page.tags | join: ', ' }}">
 <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | markdownify | strip_html | strip_newlines | truncate: 160 | escape_once }}{% else %}{{ site.description }}{% endif %}">
-
-{% if page.robots %}
 <meta name="robots" content="{{ page.robots }}">
-{% endif %}
-
-<link rel="canonical" href="{{ page.url | replace:'/index.html','/' | prepend: site_url | prepend: site.url }}">
+<link rel="canonical" href="{{ page.url | replace:'/index.html','/' | prepend: site_url }}">
 
 {% if paginator.previous_page %}
 <link rel="prev" href="{{ paginator.previous_page_path | replace:'/index.html','/' | prepend: site_url | prepend: site.url }}">
@@ -20,12 +16,12 @@
 {% endif %}
 
 <!-- Integrating Open Graph into Jekyll -->
-<meta property="og:title" content="{% if page.title %}{{ page.title | smartify | strip_html | strip_newlines | escape_once }}{% else %}{{ site.name }}{% endif %}">
+<meta property="og:title" content="{% if page.title %}{{ page.title | smartify | strip_html | strip_newlines | escape_once }}{% else %}{{ site.title }}{% endif %}">
 <meta property="og:type" content="{% if page.date %}article{% else %}website{% endif %}">
 <meta property="og:url" content="{{ page.url | replace:'/index.html','/' | prepend: site_url | prepend: site.url }}">
 <meta property="og:image" content="{% if page.image %}{{ page.image | prepend: site_url | prepend: site.url }}{% else %}{{ site.logo | prepend: site_url | prepend: site.url }}{% endif %}">
 <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | markdownify | strip_html | strip_newlines | truncate: 160 | escape_once }}{% else %}{{ site.description }}{% endif %}">
-<meta property="og:site_name" content="{{ site.name }}">
+<meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:locale" content="{{ site.locale }}">
 
 {% if site.facebook %}
@@ -67,7 +63,7 @@
 {% if page.date %}
 <meta name="twitter:creator" content="@{{ site.author.twitter | replace:'@','' }}">
 {% endif %}
-<meta name="twitter:title" content="{% if page.title %}{{ page.title | smartify | strip_html | strip_newlines | escape_once }}{% else %}{{ site.name }}{% endif %}">
+<meta name="twitter:title" content="{% if page.title %}{{ page.title | smartify | strip_html | strip_newlines | escape_once }}{% else %}{{ site.title }}{% endif %}">
 <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | markdownify | strip_html | strip_newlines | truncate: 160 | escape_once }}{% else %}{{ site.description }}{% endif %}">
 <meta name="twitter:image" content="{% if page.image %}{{ page.image | prepend: site_url | prepend: site.url }}{% else %}{{ site.logo | prepend: site_url | prepend: site.url }}{% endif %}">
 <meta name="twitter:url" content="{{ page.url | replace:'/index.html','/' | prepend: site_url | prepend: site.url }}">

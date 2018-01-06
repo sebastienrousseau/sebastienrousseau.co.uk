@@ -19,4 +19,4 @@ permalink: /archive/
 *   {{ post.date | date: "%b %-d" }} - [{{ post.title }}]({{ site.url }}{{ post.url }})
     {% endfor %}
 
-Subscribe [via RSS]({{ "/feed.xml" | prepend: site_url }})
+Subscribe [via RSS]({{ "/atom.xml" | prepend: site_url }})
