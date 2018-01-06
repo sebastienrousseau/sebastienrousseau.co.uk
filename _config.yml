@@ -51,6 +51,7 @@ plugins:
   - jekyll-assets
   - jekyll-redirect-from
   - jekyll-github-metadata
+  - jekyll-sitemap
   - autoprefixer-rails
 
 permalink: /:title
