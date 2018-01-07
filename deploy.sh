@@ -8,7 +8,7 @@ setup() {
 
   rev=$(git rev-parse --short HEAD)
 
-  echo "-- Starting deploy to http://sebastienrousseau.co.uk"
+  echo "-- Starting deploy to https://sebastienrousseau.co.uk"
 
   # Build the docs page locally
   export JEKYLL_ENV="production"
@@ -50,13 +50,13 @@ commit() {
 
   # Post a Slack message
   git checkout master
-  echo "-- Deployed successfully, check out http://sebastienrousseau.co.uk"
+  echo "-- Deployed successfully, check out https://sebastienrousseau.co.uk"
 }
 
 push() {
   git push upstream gh-pages --force
   git checkout master
-  echo "Deployed successfully, check out http://sebastienrousseau.co.uk"
+  echo "Deployed successfully, check out https://sebastienrousseau.co.uk"
   exit 0
 }
 

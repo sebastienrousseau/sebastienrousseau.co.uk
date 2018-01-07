@@ -1,4 +1,4 @@
-# [sebastienrousseau.co.uk](http://sebastienrousseau.co.uk)
+# [sebastienrousseau.co.uk](https://sebastienrousseau.co.uk)
 
 ### To run the server locally:
 ```
