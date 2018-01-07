@@ -47,7 +47,7 @@ setup_git() {
 commit() {
   # Commit all the changes and push it to the remote
   git add -A
-  git commit -m "Rebuild with $(jekyll -v) at ${rev}"
+  git commit -m "Rebuild with $(jekyll -v) at $(rev)"
   git push upstream gh-pages --force # force needed, as travis somehow can't re-use branches
   echo "-- Finished update of gh-pages"
 
