@@ -1,14 +1,14 @@
 #!/bin/bash
 DEPLOY_REPO="https://$GH_TOKEN@github.com/reedia/sebastienrousseau.co.uk.git"
 
-echo "Deploying changes"
+echo "-- Deploying changes on sebastienrousseau.co.uk"
 
 setup() {
   set -e # Exit with nonzero exit code if anything fails
 
   rev=$(git rev-parse --short HEAD)
 
-  echo "Starting deploy to http://sebastienrousseau.co.uk"
+  echo "-- Starting deploy to http://sebastienrousseau.co.uk"
 
   # Build the docs page locally
   export JEKYLL_ENV="production"
@@ -30,6 +30,8 @@ setup_git() {
   # we don't want the `git checkout` to cause issues (e.g. https://circleci.com/gh/fastlane/docs/730)
   git checkout -b gh-pages
   git remote add upstream $DEPLOY_REPO
+  git fetch upstream
+  git reset upstream/gh-pages
 
   #git pull
   rm -rf *
@@ -39,17 +41,19 @@ setup_git() {
 
   # We need a CNAME file for GitHub
   echo "sebastienrousseau.co.uk" > "CNAME"
+  touch .
 }
 
 commit() {
   # Commit all the changes and push it to the remote
   git add -A
-  git commit -m "Deployed by Reedia Limited with $(jekyll -v)"
+  git commit -m "Rebuild with $(jekyll -v) at ${rev}"
   git push upstream gh-pages --force # force needed, as travis somehow can't re-use branches
+  echo "-- Finished update of gh-pages"
 
   # Post a Slack message
   git checkout master
-  echo "Deployed successfully, check out http://sebastienrousseau.co.uk"
+  echo "-- Deployed successfully, check out http://sebastienrousseau.co.uk"
 }
 
 push() {
