@@ -30,8 +30,6 @@ setup_git() {
   # we don't want the `git checkout` to cause issues (e.g. https://circleci.com/gh/fastlane/docs/730)
   git checkout -b gh-pages
   git remote add upstream $DEPLOY_REPO
-  git fetch upstream
-  git reset upstream/gh-pages
 
   #git pull
   rm -rf *
@@ -41,7 +39,6 @@ setup_git() {
 
   # We need a CNAME file for GitHub
   echo "sebastienrousseau.co.uk" > "CNAME"
-  touch .
 }
 
 commit() {
