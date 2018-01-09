@@ -1,14 +1,14 @@
 ---
 layout: default
 title: About Sebastien Rousseau
-description: Page about Sebastien Rousseau
+description: Sebastien Rousseau is the founder and CEO of Reedia Limited - a Blockchain, Banking & Financial Services development consultancy based in London, UK.
 permalink: /about/sebastienrousseau
 categories: []
-tags: [sebastien,rousseau]
+tags: [blockchain, banking, financial services, development, consultancy, london]
 status: publish
 type: page
 published: true
-meta: {sebastien rousseau, reedia limited, blockchain, banking, financial services, solution architect, engineer lead, london }
+meta: { sebastien rousseau, solution architect and engineer lead, founder & ceo, reedia limited, specialised in blockchain, banking, financial services, london}
 ---
 
 ## Bio
