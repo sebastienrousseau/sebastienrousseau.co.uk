@@ -17,11 +17,11 @@ _Founder & CEO, <a href="https://reedia.com">Reedia Limited</a>_
 
 Sebastien Rousseau is the founder and CEO of <a href="https://reedia.com">Reedia Limited</a> - a Blockchain, Banking & Financial Services development consultancy based in London, UK.
 
-Sebastien is a commercially driven Solution Architect and Engineer Lead, specialised in growing digital businesses, financial services and technology as a consultant with a focus on blockchain, digital currency and mobile payments integration.
+A commercially driven solution architect and engineer lead, specialised in growing digital businesses, financial services and technology as a consultant with a focus on blockchain, digital currency and mobile payments integration.
 
-Prior to this, Sebastien has been developing Financial and Digital Payment products for numerous years working with Banks, Digital Payment providers and brands. Highly developed strategic leadership, cross-platform product development and solution architectures skills built within Banking, Financial Services, Communication and Media sectors.
+He has been developing Financial and Digital Payment products for numerous years working with brands, banks, online payment service providers and payment gateway. With an highly developed strategic leadership, cross-platform product design and solution architecture skills built within Banking, Financial Services, Communication and Media sectors.
 
-In addition, I have designed and delivered a number of complex mobile projects within Barclays Bank PLC; led the mobile software teams at Shazam Entertainment Limited and championed a range of online and contactless payment propositions for strategic partners at PayPal Inc.
+Earlier in his career, Sebastien designed, delivered and championed operational improvements of a number of complex mobile projects within Barclays Bank PLC; led the mobile software teams at Shazam Entertainment Limited and championed a range of online and contactless payment propositions for strategic partners at PayPal Inc.
 
 <hr />
 
