@@ -17,11 +17,11 @@ _Founder & CEO, <a href="https://reedia.com">Reedia Limited</a>_
 
 Sebastien Rousseau is the founder and CEO of <a href="https://reedia.com">Reedia Limited</a> - a Blockchain, Banking & Financial Services development consultancy based in London, UK.
 
-A commercially driven solution architect and engineer lead, specialised in growing digital businesses, financial services and technology as a consultant with a focus on blockchain, digital currency and mobile payments integration.
+He is a commercially driven solution architect and engineer lead, specialised in growing digital businesses as a consultant with a focus on blockchain, cryptocurrency and digital payment transformation programmes.
 
-He has been developing Financial and Digital Payment products for numerous years working with brands, banks, online payment service providers and payment gateway. With an highly developed strategic leadership, cross-platform product design and solution architecture skills built within Banking, Financial Services, Communication and Media sectors.
+He has been developing financial and digital payment products for numerous years working with banks, financial services, online payment service providers, communication and media sectors. Based on this experience he has highly developed strategic leadership, cross-platform product design and solution architecture skills.
 
-Earlier in his career, Sebastien designed, delivered and championed operational improvements of a number of complex mobile projects within Barclays Bank PLC; led the mobile software teams at Shazam Entertainment Limited and championed a range of online and contactless payment propositions for strategic partners at PayPal Inc.
+Across his consulting career, Sebastien has designed, delivered and championed operational improvements of a number of complex mobile projects within Barclays Bank PLC; led the mobile software teams at Shazam Entertainment Limited and championed a range of online and contactless payment propositions for strategic partners at PayPal Inc.
 
 <hr />
 
