@@ -4,7 +4,7 @@ title: 'Bitcoin The Year In Review'
 description: 'A Look Back at Bitcoin and Cryptocurrencies in 2017.'
 lang: en_GB
 image: /assets/images/bitcoin-2018.jpg
-categories: [bitcoin, blockchain, cryptocurrencies]
+categories: []
 author: 'Sebastien Rousseau'
 tags:
 - bitcoin
@@ -18,7 +18,7 @@ type: post
 published: true
 meta: {bitcoin,btc,blockchain,cryptocurrency,cryptocurrencies}
 ---
-The Peer-to-Peer Electronic Cash System that everyone is talking about<!--more-->
+**The Peer-to-Peer Electronic Cash System that everyone is talking about.**<!--more-->
 
 <img src="/assets/images/bitcoin-2018.jpg" alt="Bitcoin Banner" />
 

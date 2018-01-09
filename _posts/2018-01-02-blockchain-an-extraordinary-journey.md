@@ -4,7 +4,7 @@ title: 'Blockchain, the technology that matters in 2018'
 description: 'A story of the extraordinary journey of securing digital transactions through Private-key Cryptography and Peer-to-peer (P2P) networks'
 lang: en_GB
 image: /assets/images/bitcoin-2018.jpg
-categories: [bitcoin, blockchain, cryptocurrencies,p2p]
+categories: []
 author: 'Sebastien Rousseau'
 tags:
 - blockchain
@@ -17,7 +17,7 @@ type: post
 published: true
 meta: {blockchain,cryptography,financial services,cryptocurrencies,p2p}
 ---
-A story of the extraordinary journey of securing digital transactions through Private-key Cryptography and Peer-to-peer (P2P) networks.<!--more-->
+**A story of the extraordinary journey of securing digital transactions through Private-key Cryptography and Peer-to-peer (P2P) networks.**<!--more-->
 
 <img src="/assets/images/blockchain.png" alt="Blockchain Banner" />  
 
