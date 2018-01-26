@@ -1,23 +1,26 @@
 ---
 layout: default
-title: Sebastien Rousseau - CEO of Reedia Limited - a Blockchain, Banking & Financial Services.
+title: Sebastien Rousseau is the founder and CEO of Reedia Limited - a Blockchain, Banking & Financial Services development consultancy based in London, UK
 description: Sebastien Rousseau is the founder and CEO of Reedia Limited - a Blockchain, Banking & Financial Services development consultancy based in London, UK.
 permalink: /
 categories: []
-tags: [sebastienrousseau, reedia, blockchain, bitcoin, technology, banking, financial services, london]
+tags: [sebastienrousseau, reedia, blockchain, bitcoin, technology, banking, financial, services, consultancy, london]
 status: publish
 published: true
-meta: { sebastienrousseau, reedia, blockchain, bitcoin, technology, banking, financial services, london}
+meta: { sebastienrousseau, reedia, blockchain, bitcoin, technology, banking, financial, services, consultancy, london}
 ---
 
-<h2>Highlights on Blockchain, Cryptocurrency & Financial Technology</h2>
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>: {{ post.excerpt | remove: '<p>' | remove: '</p>' | split:'<!--more-->' | first }}</li>
+<h2 itemprop="name">Highlights on Blockchain, Cryptocurrency & Financial Technology</h2>
+<meta itemprop="logo" content="https://sebastienrousseau.co.uk/assets/images/SebastienRousseau.jpeg">    
+{% for post in site.posts %}
+    <article itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+      <h2><span>{{ post.date | date_to_string }} &raquo; </span><a href="{{ post.url }}" itemprop="url"><span itemprop="name">{{ post.title }}</span></a></h2>
+      <meta itemprop="keywords" content="{{ post.tags | join: ',' }}" />
+      <p itemprop="description">
+          {{ post.excerpt | remove: '<p>' | remove: '</p>' | split:'<!--more-->' | first }}         
+      </p>
+    </article>
   {% endfor %}
-</ul>
-
 
 <!--
   {% if paginator.next_page %}
