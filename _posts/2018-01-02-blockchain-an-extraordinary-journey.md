@@ -9,7 +9,7 @@ author: 'Sebastien Rousseau'
 tags:
 - blockchain
 - cryptography
-- financial services
+- financial-services
 - cryptocurrencies
 - p2p
 status: publish
