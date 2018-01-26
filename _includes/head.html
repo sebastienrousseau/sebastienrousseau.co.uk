@@ -2,8 +2,14 @@
 
   <meta charset="utf-8">
 
-  <title>{{ site.title | escape }}</title>
-
+  <title>
+    {%if page.title %}
+      {{ page.title | escape }}
+    {% else %}
+      {{ site.title | escape }}
+    {% endif %}
+  </title>
+  
   <!-- Metatags -->
   {% include metatags.html %}
 
