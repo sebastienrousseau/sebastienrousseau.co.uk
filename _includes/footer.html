@@ -1,14 +1,18 @@
 <footer class="text-center" role="contentinfo">
-  <p>Copyright &#169; Reedia Limited {{ 'now' | date: "%Y" }}. All rights reserved.</p>
-  <p>Reedia Limited is registered in England and Wales. Company no: 08392990. VAT no: GB 155 7918 73.</p>
-  <p>
-    <a href="/terms/">Terms and Conditions</a> -
-    <a href="/privacy/">Privacy Policy and Disclaimer</a> -
-    <a href="/cookies/">Cookie Policy</a>
-  </p>
+  <section class="grid-flex">
+    <row class="flex-10">
+      <p>Copyright &#169; Reedia Limited {{ 'now' | date: "%Y" }}. All rights reserved.</p>
+      <p>Reedia Limited is registered in England and Wales. Company no: 08392990. VAT no: GB 155 7918 73.</p>
+      <p>
+        <a href="/terms/">Terms and Conditions</a> -
+        <a href="/privacy/">Privacy Policy and Disclaimer</a> -
+        <a href="/cookies/">Cookie Policy</a>
+      </p>
 
-  {% if jekyll.environment == 'production' and site.google_analytics %}
-    <!-- GA -->
-    {% include analytics.html %}
-  {% endif %}
+      {% if jekyll.environment == 'production' and site.google_analytics %}
+        <!-- GA -->
+        {% include analytics.html %}
+      {% endif %}
+    </row>  
+  </section>
 </footer>

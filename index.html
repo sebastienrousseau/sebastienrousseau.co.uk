@@ -14,12 +14,18 @@ meta: { sebastienrousseau, reedia, blockchain, bitcoin, technology, banking, fin
 <meta itemprop="logo" content="https://sebastienrousseau.co.uk/assets/images/SebastienRousseau.jpeg">    
 {% for post in site.posts %}
     <article itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
-      <h2><span>{{ post.date | date_to_string }} &raquo; </span><a href="{{ post.url }}" itemprop="url"><span itemprop="name">{{ post.title }}</span></a></h2>
+      <h3><a href="{{ post.url }}" itemprop="url"><span itemprop="name">{{ post.title }}</span></a></h3>
+      {% if post.author %}
+        by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ site.author }}</span></span>
+      {% endif %}
+      <small>
+        ({{ post.date | date_to_string }})
+      </small>  
       <meta itemprop="keywords" content="{{ post.tags | join: ',' }}" />
       <p itemprop="description">
           {{ post.excerpt | remove: '<p>' | remove: '</p>' | split:'<!--more-->' | first }}         
-      </p>
-    </article>
+      </p>      
+    </article>    
   {% endfor %}
 
 <!--

@@ -9,11 +9,14 @@ layout: default
 {% endif %}
 <article itemscope itemtype="http://schema.org/BlogPosting">
   <header>
-    <h2 style="text-transform:uppercase;" itemprop="name headline"><a href="{{ page.url }}">{{ page.title | escape }}</a></h2>
+    <h2 itemprop="name headline"><a href="{{ page.url }}">{{ page.title | escape }}</a></h2>
     <p>
       {% if page.author %}
-        by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+        by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span> ({{ page.content | number_of_words | plus: 300 | divided_by: 160 | append: " minute read" }})
       {% endif %}
+    </p>
+    <p>
+      
     </p>
 
     <p>
