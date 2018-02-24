@@ -124,6 +124,5 @@ lib-cov
 package-lock.json
 yarn.lock
 .tmp
-dist
 .bundle
 .vscode
