@@ -9,18 +9,16 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+source: .tmp/src
+destination: .tmp/dist
 title: Sebastien Rousseau
 author: Sebastien Rousseau
-locale: en-gb
+locale: en
 email: hello@sebastienrousseau.co.uk
 description: Sebastien Rousseau is the founder and CEO of Reedia Limited - a Blockchain, Banking & Financial Services development consultancy based in London, UK.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sebastienrousseau.co.uk" # the base hostname & protocol for your site
-theme: minima
+# theme: minima
 twitter_username: wwdseb
 github_username: sebastienrousseau
 facebook_username: wwdseb
@@ -33,16 +31,49 @@ google_analytics: UA-112050664-1
 encoding: utf-8
 repository: reedia/sebastienrousseau.co.uk
 markdown: kramdown
-include: ["_pages"]
+kramdown:
+  toc_levels: 1..3
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  entity_output: as_char
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+highlighter: rouge
+include:
+  - .htaccess
+  - _pages
 excerpt_separator: <!--more-->
+keep_files:
+  - .git
 exclude:
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
   - .travis.yml
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - Capfile
+  - config
   - Gemfile
   - Gemfile.lock
+  - Gruntfile.js
+  - gulpfile.js
+  - log
+  - node_modules
   - package.json
+  - Rakefile
+  - README
   - README.md
+  - tmp
   - vendor/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
   - yarn.lock
+
 plugins:
   - jekyll-feed
   - jekyll-paginate
@@ -55,16 +86,16 @@ plugins:
   - jekyll-github-metadata
   - autoprefixer-rails
 
-permalink: /:title
+# Jekyll configuration
+# permalink: /:title
 paginate: 5
 paginate_path: "/page:num/"
-permalink: pretty
+permalink: none
 timezone:  Europe/London
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 assets:
   plugins:
-    css: { autoprefixer: {}}
     img: { optim: {}}
   source_maps: false
   sources:
@@ -73,11 +104,14 @@ assets:
     - assets/images
     - assets/javascripts
     - assets/stylesheets
-
 caching:
   path: ".jekyll-cache/assets"
   type: file # Possible values: memory, file
   enabled: true
+compress:
+  js: '/assets/js/*.js'
+  css: '/assets/styles/*.css'
+  img: '/assets/**/*.{jpg,png}'
 # --
 # baseurl: whether or not to append site.baseurl
 # destination: the folder you store them in on the CDN.

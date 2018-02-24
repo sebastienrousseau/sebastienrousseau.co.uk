@@ -1,0 +1,4 @@
+<h4>Recent Posts</h4>
+{% for post in site.posts limit:5 %}
+  <p class="text-center"><a href="{{ post.url}}"><small>{{ post.title }}</small></a></p>
+{% endfor %}

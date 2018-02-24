@@ -1,0 +1,99 @@
+<center>
+  <p>
+  <img
+      sizes="(max-width: 1920px) 100vw, 1920px"
+      srcset="
+        /assets/images/SebastienRousseau-320.jpg 320w,
+        /assets/images/SebastienRousseau-480.jpg 480w,
+        /assets/images/SebastienRousseau-576.jpg 576w,
+        /assets/images/SebastienRousseau-640.jpg 640w,
+        /assets/images/SebastienRousseau-720.jpg 720w,
+        /assets/images/SebastienRousseau-768.jpg 768w,
+        /assets/images/SebastienRousseau-800.jpg 800w,
+        /assets/images/SebastienRousseau-960.jpg 960w,
+        /assets/images/SebastienRousseau-1024.jpg 1024w,
+        /assets/images/SebastienRousseau-1200.jpg 1200w,
+        /assets/images/SebastienRousseau-1280.jpg 1280w,
+        /assets/images/SebastienRousseau-1366.jpg 1366w,
+        /assets/images/SebastienRousseau-1440.jpg 1440w,
+        /assets/images/SebastienRousseau-1536.jpg 1536w,
+        /assets/images/SebastienRousseau-1600.jpg 1600w,
+        /assets/images/SebastienRousseau-1920.jpg 1920w"
+      src="/assets/images/SebastienRousseau-320.jpg"
+      alt="Sebastien Rousseau"
+      style="border-radius: 50%"
+   />
+  </p>
+  <h4>{{ site.title | escape }}</h4>
+  <p>Founder of <a href="https://reedia.com">reedia.com</a></p>
+  <p><a href="/about/sebastienrousseau">More about me</a></p>
+
+  <!-- Social links -->
+
+    {% if site.github_username %}
+    <p>
+      {% include icon-github.html username=site.github_username %}
+    </p>
+    {% endif %}
+    {% if site.twitter_username %}
+    <p>
+      {% include icon-twitter.html username=site.twitter_username %}
+    </p>
+    {% endif %}
+    {% if site.linkedin_username %}
+    <p>
+      {% include icon-linkedin.html username=site.linkedin_username %}
+    </p>
+    {% endif %}
+    {% if site.google_plus_username %}
+    <p>
+      {% include icon-googleplus.html username=site.google_plus_username %}
+    </p>
+    {% endif %}
+
+
+  <hr />
+
+  <h4>Tags</h4>
+
+  {% assign first = site.tags.first %}
+  {% assign max = first[1].size %}
+  {% assign min = max %}
+  {% for tag in site.tags offset:1 %}
+    {% if tag[1].size > max %}
+      {% assign max = tag[1].size %}
+    {% elsif tag[1].size < min %}
+      {% assign min = tag[1].size %}
+    {% endif %}
+  {% endfor %}
+
+  {% if max == min %}
+      {% assign diff = 1 %}
+  {% else %}
+      {% assign diff = max | minus: min %}
+  {% endif %}
+
+  {% for tag in site.tags %}
+    {% assign temp = tag[1].size | minus: min | times: 36 | divided_by: diff %}
+    {% assign base = temp | divided_by: 4 %}
+    {% assign remain = temp | modulo: 4 %}
+    {% if remain == 0 %}
+      {% assign size = base | plus: 9 %}
+    {% elsif remain == 1 or remain == 2 %}
+      {% assign size = base | plus: 9 | append: '.5' %}
+    {% else %}
+      {% assign size = base | plus: 10 %}
+    {% endif %}
+    {% if remain == 0 or remain == 1 %}
+      {% assign color = 808080 | minus: base %}
+    {% else %}
+      {% assign color = D3D3D3 | minus: base %}
+    {% endif %}
+    <a href="/tags/{{ tag[0] }}.html" style="font-size: {{ size }}pt; color: #{{ color }}{{ color }}{{ color }};">{{ tag[0] }}</a>
+  {% endfor %}
+
+  <hr />
+
+  {% include posts.html %}
+
+</center>

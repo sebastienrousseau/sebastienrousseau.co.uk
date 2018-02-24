@@ -1,0 +1,32 @@
+---
+layout: default
+title: Sebastien Rousseau is the founder and CEO of Reedia Limited - a Blockchain, Banking & Financial Services development consultancy based in London, UK
+description: Sebastien Rousseau is the founder and CEO of Reedia Limited - a Blockchain, Banking & Financial Services development consultancy based in London, UK.
+permalink: /
+categories: []
+tags: [sebastienrousseau, reedia, blockchain, bitcoin, technology, banking, financial, services, consultancy, london]
+status: publish
+published: true
+meta: { sebastienrousseau, reedia, blockchain, bitcoin, technology, banking, financial, services, consultancy, london}
+---
+
+<h2 itemprop="name">Highlights on Blockchain, Cryptocurrency & Financial Technology</h2>
+<meta itemprop="logo" content="https://sebastienrousseau.co.uk/assets/images/SebastienRousseau.jpeg">
+{% for post in site.posts %}
+    <article itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+      <h3><a href="{{ post.url }}" itemprop="url"><span itemprop="name">{{ post.title }}</span></a></h3>
+      {% if post.author %}
+        by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ site.author }}</span></span>
+      {% endif %}
+      <small>
+        ({{ post.date | date_to_string }})
+      </small>
+      <meta itemprop="keywords" content="{{ post.tags | join: ',' }}" />
+      <p itemprop="description">
+          {{ post.excerpt | remove: '<p>' | remove: '</p>' | split:'<!--more-->' | first }}
+      </p>
+      <p>
+        <hr />
+      </p>
+    </article>
+  {% endfor %}

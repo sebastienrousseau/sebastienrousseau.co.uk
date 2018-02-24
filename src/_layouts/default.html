@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en " }}">
+
+{% include head.html %}
+
+<body itemscope="" itemtype="http://schema.org/Blog">
+
+    <main class="container text-left">
+        <section class="container grid-flex">
+            <row class="flex-10">
+                <h1>
+                    <a href="{{ " / " | site_url }}" style="font-size: 2.986rem;color:#000 !important;">
+                        {{ site.title | escape }}
+                    </a>
+                </h1>
+                <img
+                  sizes="(max-width: 1920px) 100vw, 1920px"
+                  srcset="
+                    /assets/images/banner-320.jpg 320w,
+                    /assets/images/banner-480.jpg 480w,
+                    /assets/images/banner-576.jpg 576w,
+                    /assets/images/banner-640.jpg 640w,
+                    /assets/images/banner-720.jpg 720w,
+                    /assets/images/banner-768.jpg 768w,
+                    /assets/images/banner-800.jpg 800w,
+                    /assets/images/banner-960.jpg 960w,
+                    /assets/images/banner-1024.jpg 1024w,
+                    /assets/images/banner-1200.jpg 1200w,
+                    /assets/images/banner-1280.jpg 1280w,
+                    /assets/images/banner-1366.jpg 1366w,
+                    /assets/images/banner-1440.jpg 1440w,
+                    /assets/images/banner-1536.jpg 1536w,
+                    /assets/images/banner-1600.jpg 1600w,
+                    /assets/images/banner-1920.jpg 1920w"
+                  src="/assets/images/banner-1920.jpg"
+                  alt="Banner"
+                  class="size-full-width" />
+            </row>
+        </section>
+
+        <section class="container grid-flex">
+            <row class="flex-8">
+                {{ content }}
+            </row>
+            <row class="flex-2">
+                <aside>
+                    <row class="text-center center flex-2">
+                        {% include sidebar.html %}
+                    </row>
+                </aside>
+            </row>
+        </section>
+    </main>
+
+    {% include footer.html %}
+
+</body>
+
+</html>

@@ -1,34 +1,26 @@
-source "https://rubygems.org"
+# Made Mistakes Gemfile
+source 'https://rubygems.org'
 
-# Hello! This is where you manage which Jekyll version is used to run.
-# When you want to use a different version, change it below, save the
-# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
-#
-#     bundle exec jekyll serve
-#
-# This will help ensure the proper Jekyll version is running.
-# Happy Jekylling!
-# gem "jekyll", "~> 3.6.0"
+gem 'breakpoint'
+gem 'html-proofer'
+gem 'rake'
+gem 'wdm', '~> 0.1' if Gem.win_platform?
 
-# This is the default theme for new Jekyll sites. You may change this to anything you like.
-# gem "minima", "~> 2.0"
-
-# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
-# uncomment the line below. To upgrade, run `bundle update github-pages`.
-gem 'github-pages', group: :jekyll_plugins
-
-# If you have any plugins, put them here!
+# Jekyll
+gem 'jekyll'
 group :jekyll_plugins do
-  gem 'jekyll-watch'
-  gem 'jekyll-feed'
-  gem 'jekyll-paginate'
-  gem 'jekyll-sitemap'
-  gem 'jekyll-seo-tag'
-  gem 'jekyll-minifier'
-  gem 'jekyll-twitter-plugin'
-  gem 'jekyll-watch'
   gem 'jekyll-assets'
+  gem 'jekyll-feed'
+  gem 'jekyll-figure'
+  gem 'jekyll-github-metadata'
+  gem 'jekyll-minifier'
+  gem 'jekyll-paginate'
   gem 'jekyll-redirect-from'
+  gem 'jekyll-seo-tag'
+  gem 'jekyll-sitemap'
+  gem 'jekyll-twitter-plugin'
+  gem 'jekyll-typogrify'
+  gem 'jekyll-watch'
+  gem 'jemoji'
   gem "autoprefixer-rails"
-
 end
