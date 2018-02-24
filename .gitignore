@@ -123,3 +123,5 @@ ehthumbs.db
 lib-cov
 package-lock.json
 yarn.lock
+.tmp
+dist
