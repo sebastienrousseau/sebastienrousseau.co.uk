@@ -200,8 +200,8 @@ function transfer(address _to, uint _value, bytes _data) returns (bool)
 
 EXTC tokens by design are moving towards the Ethereum’s Improvement Proposal 223 (ERC223 EIP) Standard for ERC223 token and the standard API for tokens within smart contracts. 
 
+{: .disc}
 * **contract ExtcToken is ERC223Interface** - Reference implementation of the ERC223 EXTC token
-
 
 * **function ExtcToken** - Assigns the totalSupply to the contract. 
 
