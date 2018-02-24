@@ -46,4 +46,4 @@ Like no other technology, Blockchain is rapidly transforming the way we do busin
 
 The real breakthrough with Blockchain is its ability to provide the basis for running truly distributed applications that eliminates the need for a central authority validation creating a true peer to peer economy.
 
-In following chapters we’ll start unwrapping the many layers of its technology and use cases.
+In following chapters we'll start unwrapping the many layers of its technology and use cases.

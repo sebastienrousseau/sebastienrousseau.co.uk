@@ -70,10 +70,11 @@ In this article, we'll be looking at building our decentralised exchange structu
 
 ## Basics
 
-The name we have chosen for our token is **[EXTC (Express Transaction Credits)](/2018/02/04/future-faster-payment-solutions/)** with a vision to achieve a brand new suite of financial services facilitating and guaranteeing instant loans, lighting-fast payments and swifter deposits between participants.
+The name we have chosen for our token is **[EXTC (Express Transaction Credits)](/future-faster-payment-solutions.html)** with a vision to achieve a brand new suite of financial services facilitating and guaranteeing instant loans, lighting-fast payments and swifter deposits between participants.
 
 Let's get started on the premise that:
 
+{: .disc}
 * EXTC is an Ethereum based ERC223 and ERC223 EIP compliant token/smart-contract
 
 * The  Express Transaction Credits services will support traditional fiat currencies, cryptocurrencies and compliant tokens through a set of smart contracts
@@ -89,6 +90,7 @@ Let's get started on the premise that:
 
 ## Requirements
 
+{: .disc}
 * [NodeJS](https://nodejs.org/en/) 6.11.5+ recommended
 * [Yarn](https://yarnpkg.com/en/) 1.3.2+ recommended
 * Mac OS X, Linux or Windows
@@ -123,6 +125,7 @@ touch contracts/ExtcToken.sol
 
 To create an ERC223 contract, you will also need to define the following values:
 
+{: .disc}
 * The Token’s Name
 * The Token’s Symbol
 * The Token’s Decimal Places

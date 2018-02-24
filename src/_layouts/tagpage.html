@@ -2,10 +2,13 @@
 layout: default
 ---
 <h1>Posts tagged '{{ page.tag }}':</h1>
-<ul>
+<ul class="disc">
 {% for post in site.tags[page.tag] %}
   <li>
-    {{ post.date | date: "%B %d, %Y" }}:<a href="{{ post.url }}">{{ post.title }}</a>
+    {{ post.date | date: "%B %d, %Y" }}: <a href="{{ post.url }}">{{ post.title }}</a> -
+    <span>
+          {{ post.excerpt | remove: '<p>' | remove: '</p>' | split:'<!--more-->' | first }}
+      </span>
   </li>
 {% endfor %}
 </ul>

@@ -86,6 +86,7 @@ EXTC tokens will be built and issued as **EIP20** compliant for the Ethereum blo
 
 Four types of payments will be supported on the blockchain or distributed ledger:
 
+{: .disc}
 * **Single Atomic Payments** - one-off payments
 * **Time-based Payments** - one-off payments sent and received on a pre-arranged date
 * **Real-time Standing Orders** - regular payment that pays a fixed amount to the same recipient on regular dates
