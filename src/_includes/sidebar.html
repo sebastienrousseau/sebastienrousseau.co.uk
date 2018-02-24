@@ -1,4 +1,4 @@
-<center>
+<div class="center text-center">
   <p>
   <img
       sizes="(max-width: 1920px) 100vw, 1920px"
@@ -89,11 +89,11 @@
     {% else %}
       {% assign color = D3D3D3 | minus: base %}
     {% endif %}
-    <a href="/tags/{{ tag[0] }}.html" style="font-size: {{ size }}pt; color: #{{ color }}{{ color }}{{ color }};">{{ tag[0] }}</a>
+    <a href="/tags/{{ tag[0] }}.html" style="font-size: {{ size }}pt; color: #{{ color }};">{{ tag[0] }}</a>
   {% endfor %}
 
   <hr />
 
   {% include posts.html %}
 
-</center>
+</div>
