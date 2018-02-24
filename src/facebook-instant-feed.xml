@@ -37,7 +37,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
 			<meta property="og:type"         content="article" />
 			<meta property="og:title"        content="{{ post.title }}" />
 			<meta property="og:description"  content="{{ post.description }}" />
-			<meta property="og:image"        content="{{ site.url }}/assets/images/SebastienRousseau.jpeg" />
+			<meta property="og:image"        content="{{ site.url }}/assets/images/SebastienRousseau-320.jpg" />
 			<meta property="fb:app_id"       content="{{ site.facebook_id }}" />
 			</head>
 			<body>
@@ -45,7 +45,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
 			    <header>
 			      <!-- The cover image shown inside your article -->
 			      <figure>
-			        <img src="{{ site.url }}/assets/images/SebastienRousseau.jpeg" />
+			        <img src="{{ site.url }}/assets/images/SebastienRousseau-320.jpg" />
 			        <figcaption>Sebastien Rousseau</figcaption>
 			      </figure>
 
