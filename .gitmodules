@@ -1,0 +1,3 @@
+[submodule "src/assets/images"]
+	path = src/assets/images
+	url = git@github.com:reedia/ImageBank.git
