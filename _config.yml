@@ -15,7 +15,7 @@ title: Sebastien Rousseau
 author: Sebastien Rousseau
 locale: en
 email: hello@sebastienrousseau.co.uk
-description: Sebastien Rousseau is the founder and CEO of Reedia Limited - a Blockchain, Banking & Financial Services development consultancy based in London, UK.
+description: Sebastien Rousseau is a Blockchain, Banking & Financial Services development consultant based in London, UK.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sebastienrousseau.co.uk" # the base hostname & protocol for your site
 # theme: minima
@@ -29,7 +29,7 @@ google_analytics: UA-112050664-1
 
 # Build settings
 encoding: utf-8
-repository: reedia/sebastienrousseau.co.uk
+repository: sebastienrousseau/sebastienrousseau.co.uk
 markdown: kramdown
 kramdown:
   toc_levels: 1..3

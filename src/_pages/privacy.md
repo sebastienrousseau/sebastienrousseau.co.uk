@@ -5,9 +5,9 @@ permalink: /privacy/
 ---
 # {{ page.title | escape }}
 
-Reedia Limited wants to ensure that your privacy is protected and this privacy policy relates how uses and protects any information provided to Reedia Limited when you use this website. Any information you provide will only be used in accordance with this privacy statement.
+We wants to ensure that your privacy is protected and this privacy policy relates how uses and protects any information provided to us when you use this website. Any information you provide will only be used in accordance with this privacy statement.
 
-This Privacy Policy governs the manner in which Reedia Limited collects, uses, maintains and discloses information collected from users (each, a "User") of the https://sebastienrousseau.co.uk website ("Site"). This privacy policy applies to the Site and all products and services offered by Reedia Limited.
+This Privacy Policy governs the manner in which we collect, use, maintain and disclose information collected from users (each, a "User") of the https://sebastienrousseau.co.uk website ("Site"). This privacy policy applies to the Site and all products and services offered by us.
 
 ### Personal identification information
 
@@ -31,7 +31,7 @@ Our Site may use "cookies" to enhance User experience. User's web browser places
 
 ### How We Use Collected Information
 
-Reedia Limited collects and uses Users personal information for the following purposes:
+We collect and use Users personal information for the following purposes:
 
 #### To send periodic emails
 The email address Users provide for order processing, will only be used to send them information and updates pertaining to their order. It may also be used to respond to their inquiries, and/or other requests or questions. If User decides to opt-in to our mailing list, they will receive emails that may include company news, updates, related product or service information, etc. If at any time the User would like to unsubscribe from receiving future emails, we include detailed unsubscribe instructions at the bottom of each email
@@ -49,19 +49,8 @@ We do not sell, trade, or rent Users personal identification information to othe
 Users may find advertising or other content on our Site that link to the sites and services of our partners, suppliers, advertisers, sponsors, licensors and other third parties. We do not control the content or links that appear on these sites and are not responsible for the practices employed by websites linked to or from our Site. In addition, these sites or services, including their content and links, may be constantly changing. These sites and services may have their own privacy policies and customer service policies. Browsing and interaction on any other website, including websites which have a link to our Site, is subject to that website's own terms and policies.
 Changes to This Privacy Policy
 
-Reedia Limited has the discretion to update this privacy policy at any time. When we do, revise the updated date at the bottom of this page. You acknowledge and agree that it is your responsibility to review this privacy policy periodically and become aware of modifications.
+We have the discretion to update this privacy policy at any time. When we do, revise the updated date at the bottom of this page. You acknowledge and agree that it is your responsibility to review this privacy policy periodically and become aware of modifications.
 
 ### Your Acceptance of These Terms
 
 By using this Site, you signify your acceptance of this policy and https://sebastienrousseau.co.uk/privacy/. If you do not agree to this policy, please do not use our Site. Your continued use of the Site following the posting of changes to this policy will be deemed your acceptance of those changes.
-
-### Contacting Us
-
-If you have any questions about this Privacy Policy, the practices of this site, or your dealings with this site, please contact us at:
-
-Reedia Limited
-89 Lynton Mead, London, N20 8DH
-
-+44 208 123 1800 | hello@reedia.com | https://reedia.com
-Registered in England: 08392990
-VAT Registration No: GB 155 7918 73

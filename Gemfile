@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 gem 'breakpoint'
 gem 'html-proofer'
 gem 'rake'
+gem 'ffi', '1.9.5'
 gem 'wdm', '~> 0.1' if Gem.win_platform?
 
 # Jekyll
