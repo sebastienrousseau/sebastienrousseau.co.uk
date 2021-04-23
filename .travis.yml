@@ -1,10 +1,17 @@
+sudo: false
 language: ruby
 cache:
   bundler: true
 rvm:
 - 2.4.0
 before_install:
-- bundle install
+  - bundle -v
+  - rm Gemfile.lock || true
+  - gem update --system
+  - gem update bundler
+  - gem --version
+  - bundle -v
+  - bundle install
 script:
 - "./image-optimisation.sh"
 after_success:
@@ -12,6 +19,8 @@ after_success:
 branches:
   only:
   - master
+notifications:
+  email: false
 env:
   global:
     secure: WOerNcqrj0zxSpUeGWEgxH288w/CddMB7lznfblpMD5+pne0cV2HzOPLGuoL9hpDv6rEc21OIpp9Z6+Fet+x9oIgXz6FNkQPWNQwp7k3xud+5s6fyVC25BQYDeR9te1phbBaXV8bRW0eyQdsRSg/GgjWJLyfRh7K/xJ/5l2ibMpJ3dd3KJtGdeuvf59kTH8surP0MO5fzJU0d/mVvFnOE9bncGNmhNV6z5Wo9gX3bku9VgE09P9ozyZLLpXsESAPOTnTnBkt2NxF+OtWGBkdXnWrOBhr/4ENMeGPGCbCpYMCnURwcLtz5jaTDTxg1hV0ZJbWQgcp+EREtljuc8M3+GGZKRA6mCIOlttJGVRk6YOaFYrQ8GcNzWj4ECOYXti6RwJXVXWRoezeF5t5k2CMatoUq0XnJulR07fGlxxPWCmVao83GtoXt5wFTTA0v6WP/t4jBHWTh21u+OjrFi28PK+w/P0b+jrapHwq8W1unNGKTue6zKKutf2EyQjywLCtu+Qm+Y426R4D7/WVxiB5LMfr3QnDEu2hJ/A1yjgiQPAQH8zF/8ZfR9YVhp5aBFIxUzRznl+8bgUjvHnOzm23wzV0YXbezi7rnzCgfJq0jHcH+dE0o6QQV6OK3P0QGKFabUILtcrUfij4g9UEb220Q6TLE+C4Se1pSRgSs/uWi8w=
