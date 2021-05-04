@@ -4,8 +4,6 @@ cache:
   bundler: true
 rvm:
 - 2.4.0
-git:
-  submodules: false
 before_install:
   - bundle -v
   - rm Gemfile.lock || true
