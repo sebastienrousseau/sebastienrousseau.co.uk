@@ -134,10 +134,14 @@ We are committed to preserving and fostering a diverse, welcoming community. Ple
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/sebastienrousseau/skeletonic/blob/master/LICENSE) file for details
 
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsebastienrousseau%2Fsebastienrousseau.co.uk.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsebastienrousseau%2Fsebastienrousseau.co.uk?ref=badge_large)
+
 ## Acknowledgements
 
 [sebastienrousseau.co.uk](https://sebastienrousseau.co.uk) is beautifully crafted by these people and a bunch of awesome [contributors](https://github.com/sebastienrousseau/sebastienrousseau.co.uk/graphs/contributors)
 
-[![Sebastien Rousseau](https://avatars0.githubusercontent.com/u/1394998?s=117)](https://sebastienrousseau.co.uk) |
+[![Sebastien Rousseau](https://avatars0.githubusercontent.com/u/1394998?s=117)](https://sebastienrousseau.co.uk) [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsebastienrousseau%2Fsebastienrousseau.co.uk.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsebastienrousseau%2Fsebastienrousseau.co.uk?ref=badge_shield)
+|
 |:---:
 [Sebastien Rousseau](https://github.com/sebastienrousseau) |
