@@ -179,6 +179,7 @@ GEM
       thread_safe (~> 0.1)
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
+    webrick (1.7.0)
     yell (2.2.2)
 
 PLATFORMS
@@ -205,6 +206,7 @@ DEPENDENCIES
   jemoji
   rack (= 2.2.3)
   sprockets (~> 3.7)
+  webrick (~> 1.7)
 
 BUNDLED WITH
    2.2.23

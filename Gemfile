@@ -26,3 +26,5 @@ group :jekyll_plugins do
   gem 'jemoji'
   gem 'autoprefixer-rails'
 end
+
+gem "webrick", "~> 1.7"
