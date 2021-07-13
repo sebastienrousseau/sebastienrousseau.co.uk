@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 
 gem 'breakpoint'
 gem 'html-proofer'
-gem 'rake'
+gem 'rack', '>= 2.1.4'
 gem 'ffi', '1.9.24'
 gem 'wdm', '~> 0.1' if Gem.win_platform?
 
@@ -23,5 +23,5 @@ group :jekyll_plugins do
   gem 'jekyll-typogrify'
   gem 'jekyll-watch'
   gem 'jemoji'
-  gem "autoprefixer-rails"
+  gem 'autoprefixer-rails'
 end
