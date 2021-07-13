@@ -135,6 +135,7 @@ We are committed to preserving and fostering a diverse, welcoming community. Ple
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/sebastienrousseau/skeletonic/blob/master/LICENSE) file for details
 
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/975157e2570d4ae696f3518563c71489)](https://app.codacy.com/gh/sebastienrousseau/sebastienrousseau.co.uk?utm_source=github.com&utm_medium=referral&utm_content=sebastienrousseau/sebastienrousseau.co.uk&utm_campaign=Badge_Grade_Settings)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsebastienrousseau%2Fsebastienrousseau.co.uk.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsebastienrousseau%2Fsebastienrousseau.co.uk?ref=badge_large)
 
 ## Acknowledgements
