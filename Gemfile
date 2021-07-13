@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 
 gem 'breakpoint'
 gem 'html-proofer'
-gem 'rack', '>= 2.1.4'
+gem 'rack', '2.2.3'
 gem 'ffi', '1.9.24'
 gem 'wdm', '~> 0.1' if Gem.win_platform?
 
