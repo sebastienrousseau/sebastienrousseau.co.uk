@@ -2,17 +2,20 @@
 source 'https://rubygems.org'
 
 gem 'breakpoint'
+gem 'ffi'
 gem 'html-proofer'
-gem 'rack', '2.2.3'
-gem 'ffi', '1.9.24'
+gem 'kramdown-parser-gfm'
+gem 'rack'
 gem 'sass-rails'
-gem 'sprockets', '~> 3.7'
+gem 'sprockets'
 gem 'wdm', '~> 0.1' if Gem.win_platform?
+gem 'webrick'
 
 # Jekyll
 gem 'jekyll'
 group :jekyll_plugins do
-  gem 'jekyll-assets'
+  gem 'autoprefixer-rails'
+  # gem 'jekyll-assets'
   gem 'jekyll-feed'
   gem 'jekyll-figure'
   gem 'jekyll-github-metadata'
@@ -25,7 +28,4 @@ group :jekyll_plugins do
   gem 'jekyll-typogrify'
   gem 'jekyll-watch'
   gem 'jemoji'
-  gem 'autoprefixer-rails'
 end
-
-gem "webrick", "~> 1.7"

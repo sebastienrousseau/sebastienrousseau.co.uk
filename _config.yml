@@ -27,18 +27,20 @@ linkedin_username: sebastienrousseau
 google_plus_username: +sebastienrousseau
 google_analytics: UA-112050664-1
 
+
 # Build settings
 encoding: utf-8
 repository: sebastienrousseau/sebastienrousseau.co.uk
 markdown: kramdown
 kramdown:
-  toc_levels: 1..3
-  input: GFM
-  hard_wrap: false
   auto_ids: true
-  entity_output: as_char
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+  entity_output: as_char
+  hard_wrap: false
+  input: GFM
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  toc_levels: 1..3
+kramdown:auto_ids: true
 highlighter: rouge
 include:
   - .htaccess
@@ -74,18 +76,6 @@ exclude:
   - vendor/ruby/
   - yarn.lock
 
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-twitter-plugin
-  - jekyll-seo-tag
-  - jekyll-minifier
-  - jekyll-watch
-  - jekyll-assets
-  - jekyll-redirect-from
-  - jekyll-github-metadata
-  - autoprefixer-rails
-
 # Jekyll configuration
 # permalink: /:title
 paginate: 5
@@ -94,24 +84,28 @@ permalink: none
 timezone:  Europe/London
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-assets:
-  plugins:
-    img: { optim: {}}
-  source_maps: false
-  sources:
-    - assets/fonts
-    - assets/icons
-    - assets/images
-    - assets/javascripts
-    - assets/stylesheets
-caching:
-  path: ".jekyll-cache/assets"
-  type: file # Possible values: memory, file
-  enabled: true
-compress:
-  js: '/assets/js/*.js'
-  css: '/assets/styles/*.css'
-  img: '/assets/**/*.{jpg,png}'
+
+# assets:
+#   source_maps: true
+#   destination: "/assets"
+#   compression: false
+#   gzip: false
+#   plugins:
+#     img: { optim: {}}
+#   sources:
+#     - assets/fonts
+#     - assets/icons
+#     - assets/images
+#     - assets/javascripts
+#     - assets/stylesheets
+# caching:
+#   path: ".jekyll-cache/assets"
+#   type: file
+#   enabled: true
+# compress:
+#   js: '/assets/js/*.js'
+#   css: '/assets/styles/*.css'
+#   img: '/assets/**/*.{jpg,png}'
 # --
 # baseurl: whether or not to append site.baseurl
 # destination: the folder you store them in on the CDN.
