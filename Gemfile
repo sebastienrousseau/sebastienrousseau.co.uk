@@ -3,10 +3,10 @@ source 'https://rubygems.org'
 
 gem 'breakpoint'
 gem 'ffi'
-gem 'html-proofer'
+gem 'html-proofer', '>= 3.19.2'
 gem 'kramdown-parser-gfm'
 gem 'rack'
-gem 'sass-rails'
+gem 'sass-rails', '>= 6.0.0'
 gem 'sprockets'
 gem 'wdm', '~> 0.1' if Gem.win_platform?
 gem 'webrick'
@@ -27,5 +27,5 @@ group :jekyll_plugins do
   gem 'jekyll-twitter-plugin'
   gem 'jekyll-typogrify'
   gem 'jekyll-watch'
-  gem 'jemoji'
+  gem 'jemoji', '>= 0.12.0'
 end
