@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 
 gem 'breakpoint'
 gem 'ffi'
-gem 'html-proofer', '>= 3.19.2'
+gem 'html-proofer', '>= 3.19.3'
 gem 'kramdown-parser-gfm'
 gem 'rack'
 gem 'sass-rails', '>= 6.0.0'
