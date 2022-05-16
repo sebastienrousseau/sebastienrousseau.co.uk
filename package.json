@@ -83,7 +83,7 @@
     "for-own": "^1.0.0",
     "fragment-cache": "^0.2.1",
     "get-value": "^3.0.1",
-    "glob-stream": "^6.1.0",
+    "glob-stream": "^7.0.0",
     "has-symbols": "^1.0.2",
     "imagemin": "^8.0.0",
     "is-buffer": "^2.0.5",
