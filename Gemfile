@@ -5,7 +5,7 @@ gem 'breakpoint'
 gem 'ffi'
 gem 'html-proofer', '>= 3.19.4'
 gem 'kramdown-parser-gfm'
-gem 'rack', '>= 2.2.3.1'
+gem 'rack', '>= 3.0.0'
 gem 'sass-rails', '>= 6.0.0'
 gem 'sprockets'
 gem 'wdm', '~> 0.1' if Gem.win_platform?
