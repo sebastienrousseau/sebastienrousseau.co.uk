@@ -7,7 +7,7 @@ gem 'html-proofer', '>= 3.19.4'
 gem 'kramdown-parser-gfm'
 gem 'rack', '>= 3.0.0'
 gem 'sass-rails', '>= 6.0.0'
-gem 'sprockets'
+gem 'sprockets', '>= 4.2.0'
 gem 'wdm', '~> 0.1' if Gem.win_platform?
 gem 'webrick'
 
